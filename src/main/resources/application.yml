@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    hikari:
+      jdbc-url: jdbc:postgresql://localhost:5432/jooq_test
+      username: postgres
+      password: postgres
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/jooq_test
+    password: postgres
+    username: postgres
+    pool:
+      initial-size: 3
+      max-size: 10
+      max-idle-time: 30m
+  jooq:
+    sql-dialect: postgres
