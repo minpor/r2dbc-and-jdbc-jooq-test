@@ -1,4 +1,4 @@
-###### How to get started?
+### How to get started?
 
 1. Download: https://fias-file.nalog.ru/downloads/2021.11.16/base.7z from https://fias.nalog.ru/Updates
 2. Run pgdbf utils
